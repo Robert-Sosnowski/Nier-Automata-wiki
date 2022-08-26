@@ -6,6 +6,8 @@ import {characters} from "./routes/characters";
 import {races} from "./routes/races";
 import {weapons} from "./routes/weapons";
 import world from "./routes/world";
+import {enemies} from "./routes/enemies";
+import {story} from "./routes/story";
 import Menu from "./components/Menu/Menu";
 import { Main } from './Main';
 function App() {
@@ -22,8 +24,8 @@ function App() {
 				<Route path="races" element={<races />} />
 				<Route path="weapons" element={<weapons />} />
 				<Route path="world" element={<world />} />
-				<Route path="characters" element={<characters />} />
-
+				<Route path="enemies" element={<enemies />} />
+				<Route path="story" element={<story />} />
 			</Routes>
 		</ThemeProvider>
 	);
