@@ -1,0 +1,384 @@
+{
+  "Characters": [
+    {
+      "id": 1,
+      "Name": "2B",
+      "Full-name": "YoRHa Nr.2 Typ B (Bojowy)",
+      "Race": "Android",
+      "Occupation": "Żołnierz YoRHa ",
+      "Sex": "Żeński model",
+      "Age": "2-3",
+      "Weapon": {
+        "Initial":"Virtuous Contract",
+        "Route C/D": ""
+      },
+      "Born": "7 Styczeń, 11942 (stworzona)",
+      "Height": "168cm (razem z butami)",
+      "Weight": "148.8kg",
+      "Hair-color": "Srebrzysto Białe",
+      "Eye-color": {
+        "Passive": "Niebiesko-szare",
+        "Combat Mode": ""
+      },
+      "Family": "",
+      "Japanese-voice": "Yui Ishikawa",
+      "English-voice": "Kira Buckland"
+    },
+    {
+      "id": 2,
+      "Name": "9S",
+      "Full-name": "YoRHa Nr.9 Typ S (Skaner)",
+      "Race": "YoRHa Android",
+      "Occupation": "Jednostka Skanująca YoRHa ",
+      "Sex": "Męski model",
+      "Age": "3½",
+      "Weapon": {
+        "Initial":"Cruel Oath",
+        "Route C/D": ""
+      },
+      "Born": "30 Styczeń, 11942 (stworzony)",
+      "Height": "160cm",
+      "Weight": "129.9kg",
+      "Hair-color": "Białe",
+      "Eye-color":{
+        "Passive": "Jasno niebieskie",
+        "Combat Mode": ""
+      },
+      "Family": "",
+      "Japanese-voice": "Natsuki Hanae",
+      "English-voice": "Kyle McCarley"
+    },
+    {
+      "id": 3,
+      "Name": "A2",
+      "Full-name": "YoRHa Typ A (Atakujący) Nr.2 ",
+      "Race": "YoRHa Android",
+      "Occupation": "YoRHa (dawniej) ",
+      "Sex": "Żeński model",
+      "Age": "nieznany",
+      "Weapon": {
+        "Initial": "Miecz Typ 40 i Ostrze Typ 40",
+        "Route C/D": "Virtuous Contract"
+      },
+      "Born": "",
+      "Height": "168cm(razem z butami)",
+      "Weight": "139.2kg",
+      "Hair-color": "Srebrzysto Białe",
+      "Eye-color":{
+        "Passive": "Jasno niebieskie",
+        "Combat Mode": ""
+      },
+      "Family": "",
+      "Japanese-voice": "Ayaka Suwa",
+      "English-voice": "Cherami Leigh"
+    },
+    {
+      "id": 4,
+      "Name": "White",
+      "Full-name": "Komandor White",
+      "Race": "YoRHa ",
+      "Occupation": "Komandor YoRHa ",
+      "Sex": "Żeński model",
+      "Age": "nieznany",
+      "Weapon":{
+        "Initial": "",
+        "Route C/D": ""
+      },
+      "Born": "",
+      "Height": "175 cm (włączając akcesoria do włosów)",
+      "Weight": "",
+      "Hair-color": "Blond",
+      "Eye-color":{
+        "Passive": "Zielone",
+        "Combat Mode": ""
+      },
+      "Family": "",
+      "Japanese-voice": "Chiaki Kano",
+      "English-voice": "Colleen Villard"
+    },
+    {
+      "id": 5,
+      "Name": "Devola",
+      "Full-name": "",
+      "Race": "Android",
+      "Occupation": "Właścicielka Sklepu",
+      "Sex": "Żeński model",
+      "Age": "nieznany",
+      "Weapon": {
+        "Initial": "",
+        "Route C/D": ""
+      },
+      "Born": "",
+      "Height": "173 cm(wraz z butami)",
+      "Weight": "",
+      "Hair-color": "Kasztanowe",
+      "Eye-color":{
+        "Passive": "Morskie",
+        "Combat Mode": ""
+      },
+      "Family": "Popola(siostra)",
+      "Japanese-voice": "Ryoko Shiraishi",
+      "English-voice": "Eden Riegel"
+    },
+    {
+      "id": 6,
+      "Name": "Popola",
+      "Full-name": "",
+      "Race": "Android",
+      "Occupation": "Właścicielka Sklepu",
+      "Sex": "Żeński model",
+      "Age": "nieznany",
+      "Weapon": {
+        "Initial": "",
+        "Route C/D": ""
+      },
+      "Born": "",
+      "Height": "173 cm(wraz z butami)",
+      "Weight": "",
+      "Hair-color": "Kasztanowe",
+      "Eye-color":{
+        "Passive": "Morskie",
+        "Combat Mode": ""
+      },
+      "Family": "Devola (siostra)",
+      "Japanese-voice": "Ryoko Shiraishi",
+      "English-voice": "Eden Riegel"
+    },
+    {
+      "id": 7,
+      "Name": "Pascal",
+      "Full-name": "",
+      "Race": "Maszyna",
+      "Occupation": "Lider wioski",
+      "Sex": "Męska",
+      "Age": "powyżej 200 lat",
+      "Weapon": {
+        "Initial": "",
+        "Route C/D": ""
+      },
+      "Born": "",
+      "Height": "nieznany",
+      "Weight": "",
+      "Hair-color": "",
+      "Eye-color": {
+        "Passive": "Zielone",
+        "Combat Mode": "Czerwone"
+      },
+      "Family": "",
+      "Japanese-voice": "RAoi Yuuki",
+      "English-voice": "Alexis Tipton"
+    },
+    {
+      "id": 8,
+      "Name": "Eve",
+      "Full-name": "",
+      "Race": "Humanoidalna Maszyna",
+      "Occupation": "Przywódca Maszyn",
+      "Sex": "Męski model",
+      "Age": "poniżej roku",
+      "Weapon": {
+        "Initial": "",
+        "RouteC/D": ""
+      },
+      "Born": "pomiędzy 10 marca a 7 kwietnia 11945",
+      "Height": "188cm",
+      "Weight": "",
+      "Hair-color": "Niebieskawo-Srebrne",
+      "Eye-color":{
+        "Passive": "Czerwone",
+        "Combat Mode": ""
+      },
+      "Family": "Adam (brat)",
+      "Japanese-voice": "Tatsuhisa Suzuki",
+      "English-voice": "Ray Chase"
+    },
+    {
+      "id": 9,
+      "Name": "Adam",
+      "Full-name": "",
+      "Race": "Humanoidalna Maszyna",
+      "Occupation": "Przywódca Maszyn",
+      "Sex": "Męski model",
+      "Age": "poniżej roku",
+      "Weapon": {
+        "Initial": "",
+        "RouteC/D": ""
+      },
+      "Born": "pomiędzy 10 marca a 7 kwietnia 11945",
+      "Height": "188cm",
+      "Weight": "",
+      "Hair-color": "Niebieskawo-Srebrne",
+      "Eye-color":{
+        "Passive": "Czerwone",
+        "Combat Mode": ""
+      },
+      "Family": "Adam (brat)",
+      "Japanese-voice": "Tatsuhisa Suzuki",
+      "English-voice": "Ray Chase"
+    },
+    {
+      "id": 10,
+      "Name": "Emil",
+      "Full-name": "",
+      "Race": "Genetycznie Modyfikowany Człowiek",
+      "Occupation": "Broń",
+      "Sex": "Męska",
+      "Age": "nieznany",
+      "Weapon": {
+        "Initial": "",
+        "RouteC/D": ""
+      },
+      "Born": "",
+      "Height": "132 cm",
+      "Weight": "",
+      "Hair-color": "",
+      "Eye-color": {
+        "Passive": "",
+        "Combat Mode": ""
+      },
+      "Family": "",
+      "Japanese-voice": "Mai Kadowaki",
+      "English-voice": "Julie Ann Taylor"
+    },
+    {
+      "id": 11,
+      "Name": "Anemone",
+      "Full-name": "",
+      "Race": "Android",
+      "Occupation": "Liderka Ruchu Oporu",
+      "Sex": "Żeński Model",
+      "Age": "nieznany",
+      "Weapon": {
+        "Initial": "",
+        "RouteC/D": ""
+      },
+      "Born": "",
+      "Height": "",
+      "Weight": "",
+      "Hair-color": "",
+      "Eye-color": {
+        "Passive": "",
+        "Combat Mode": ""},
+      "Family": "",
+      "Japanese-voice": "Meari Hatsumi",
+      "English-voice": "Erica Lindbeck"
+    },
+    {
+      "id": 12,
+      "Name": "21O",
+      "Full-name": "YoRHa Jednostka 21 Typ O (Operator)",
+      "Race": "Android",
+      "Occupation": "Operator YoRHa ",
+      "Sex": "Żeński model",
+      "Age": "nieznany",
+      "Weapon": {
+        "Initial": "",
+        "RouteC/D": ""
+      },
+      "Born": "nieznana",
+      "Height": "167cm (razem z butami)",
+      "Weight": "145.5 kg",
+      "Hair-color": "Blond",
+      "Eye-color":{
+        "Passive": "Niebieskie",
+        "Combat Mode": ""
+      },
+      "Family": "",
+      "Japanese-voice": "Meari Hatsumi",
+      "English-voice": "Connor Kelly Eiding"
+    },
+    {
+      "id": 13,
+      "Name": "6O",
+      "Full-name": "YoRHa Jednostka 6 Typ O (Operator)",
+      "Race": "Android",
+      "Occupation": "Operator YoRHa ",
+      "Sex": "Żeński model",
+      "Age": "",
+      "Weapon": {
+        "Initial": "",
+        "RouteC/D": ""
+      },
+      "Born": "",
+      "Height": "",
+      "Weight": "",
+      "Hair-color": "Blond",
+      "Eye-color":{
+        "Passive": "Niebieskie",
+        "Combat Mode": ""
+      },
+      "Family": "",
+      "Japanese-voice": "Keiko Isobe",
+      "English-voice": "Cassandra Lee Morris"
+    },
+    {
+      "id": 14,
+      "Name": "Pod 042",
+      "Full-name": "",
+      "Race": "",
+      "Sex": "",
+      "Occupation": "Jednostka pomocnicza Androidów YoRHa",
+      "Age": "",
+      "Weapon": {
+        "Initial": "",
+        "RouteC/D": ""
+      },
+      "Born": "",
+      "Height": "",
+      "Weight": "",
+      "Hair-color": "",
+      "Eye-color": {
+        "Passive": "",
+        "Combat Mode": ""},
+      "Family": "",
+      "Japanese-voice": "Hiroki Yasumoto",
+      "English-voice": "D. C. Douglas"
+    },
+    {
+      "id": 15,
+      "Name": "Pod 153",
+      "Full-name": "",
+      "Race": "",
+      "Occupation": "Jednostka pomocnicza Androidów YoRHa",
+      "Sex": "",
+      "Age": "",
+      "Weapon": {
+        "Initial": "",
+        "RouteC/D": ""
+      },
+      "Born": "",
+      "Height": "",
+      "Weight": "",
+      "Hair-color": "",
+      "Eye-color": {
+        "Passive": "",
+        "Combat Mode": ""},
+      "Family": "",
+      "Japanese-voice": "Kaoru Akiyama",
+      "English-voice": "Abby Trott"
+    },
+    {
+      "id": 16,
+      "Name": "Red Girl",
+      "Full-name": "Terminal Alpha i Beta",
+      "Race": "Program",
+      "Occupation": "",
+      "Sex": "Żeńska",
+      "Age": "",
+      "Weapon": {
+        "Initial": "",
+        "RouteC/D": ""
+      },
+      "Born": "",
+      "Height": "",
+      "Weight": "",
+      "Hair-color": "Czarne",
+      "Eye-color": {
+        "Passive": "Niebieskie",
+        "Combat Mode": ""},
+      "Family": "",
+      "Japanese-voice": "Jouji Nakata",
+      "English-voice": "Darin De Paul"
+    }
+  ]
+}

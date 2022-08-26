@@ -1,0 +1,38 @@
+{
+"Enemies":[
+  {
+    "Name": "So-Shi",
+    "Race": "Maszyna Specjalnego typu",
+    "Zone": "Porzucona Fabryka"
+  },
+  {
+    "Name": "Goliath Tank (Standard)",
+    "Race": "Maszyna Specjalnego typu",
+    "Zone": "Porzucona Fabryka"
+  },
+  {
+    "Name": "Boku-Shi",
+    "Race": "Maszyna Specjalnego typu",
+    "Zone": "Ruiny Miasta"
+  },
+  {
+    "Name": "Ro-Shi",
+    "Race": "Maszyna Specjalnego typu",
+    "Zone": "Wieża"
+  },
+  {
+    "Name": "Engels",
+    "Race": "Maszyna Specjalnego typu",
+    "Zone": "Porzucona Fabryka, Ruiny Miasta"
+  },
+  {
+    "Name": "Goliath Flyer",
+    "Race": "Maszyna Specjalnego typu",
+    "Zone": "Zatopione Miasto"
+  },
+  {
+    "Name": "Grün",
+    "Race": "Maszyna Specjalnego typu",
+    "Zone": "Zatopione Miasto"
+  }
+]}
