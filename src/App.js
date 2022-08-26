@@ -1,11 +1,31 @@
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import ThemeProvider from 'react-bootstrap/ThemeProvider'
+import { Routes, Route, Link } from "react-router-dom";
+import {mainPage} from "./routes/main-page";
+import {characters} from "./routes/characters";
+import {races} from "./routes/races";
+import {weapons} from "./routes/weapons";
+import world from "./routes/world";
+import Menu from "./components/Menu/Menu";
 import { Main } from './Main';
-import { BrowserRouter } from "react-router-dom";
 function App() {
 	return (
-		<div className='App'>
+		<ThemeProvider
+			breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
+			minBreakpoint="xxs"
+		>
 			<Main />
-		</div>
+			<Menu/>
+			<Routes>
+				<Route path="/" element={<mainPage/>} />
+				<Route path="characters" element={<characters />} />
+				<Route path="races" element={<races />} />
+				<Route path="weapons" element={<weapons />} />
+				<Route path="world" element={<world />} />
+				<Route path="characters" element={<characters />} />
+
+			</Routes>
+		</ThemeProvider>
 	);
 }
 

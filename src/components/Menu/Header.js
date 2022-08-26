@@ -2,7 +2,7 @@ import React from 'react';
 import { Nav, NavLink } from 'react-bootstrap';
 import DropdownMenu from './dropdown-menu';
 
-import logo from './assets/Nier__Automata_Logo.png';
+import logo from '../../assets/Nier__Automata_Logo.png';
 
 export const Header = () => {
 	return (

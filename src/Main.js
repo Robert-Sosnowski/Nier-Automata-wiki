@@ -1,5 +1,5 @@
 import React from 'react';
-import {Header} from './Header';
+import {Header} from './components/Menu/Header';
 import {Container} from 'react-bootstrap';
 import ReactDOM from "react-dom/client";
 import App from "./App";
