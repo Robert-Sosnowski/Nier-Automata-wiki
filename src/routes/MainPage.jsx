@@ -1,8 +1,8 @@
 import React from "react"
- const Enemies=()=>{
+ const MainPage=()=>{
     return(
         <h2>
-            Enemies
+           MainPage
         </h2>
     )}
-    export default Enemies
+    export default MainPage

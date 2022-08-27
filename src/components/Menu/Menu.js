@@ -4,12 +4,7 @@ import { Link } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import {mainPage} from "../../routes/main-page";
-import {characters} from "../../routes/characters";
-import {enemies} from "../../routes/enemies";
-import {races} from "../../routes/races";
-import world from "../../routes/world";
-import {story} from "../../routes/story";
+
 const Menu = () => {
     return (
         <Navbar bg="light" expand="lg">
@@ -19,22 +14,22 @@ const Menu = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link >
-                            <Link to="/">{mainPage()}</Link>
+                            <Link to="/">Strona główna</Link>
                         </Nav.Link>
                         <Nav.Link>
-                            <Link to="/characters">{characters}</Link>
+                            <Link to="/characters"> Postacie</Link>
                         </Nav.Link>
                         <Nav.Link>
-                            <Link to="/enemies">{enemies}</Link>
+                            <Link to="/enemies">Wrogowie</Link>
                         </Nav.Link>
                         <Nav.Link>
-                            <Link to="/races">{races}</Link>
+                            <Link to="/races">Rasy</Link>
                         </Nav.Link>
                         <Nav.Link>
-                            <Link to="/world">{world}</Link>
+                            <Link to="/world">Świat</Link>
                         </Nav.Link>
                         <Nav.Link>
-                            <Link to="/story">{story()}</Link>
+                            <Link to="/story">Historia</Link>
                         </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

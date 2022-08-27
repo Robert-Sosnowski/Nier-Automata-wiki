@@ -1,7 +1,7 @@
 import React from 'react';
 import { Nav, NavLink } from 'react-bootstrap';
 import DropdownMenu from './dropdown-menu';
-
+import { Link } from "react-router-dom";
 import logo from '../../assets/Nier__Automata_Logo.png';
 
 export const Header = () => {
@@ -15,9 +15,10 @@ export const Header = () => {
 				fontSize: '1.175rem',
 			}}
 		>
-			<NavLink to='/'>
+			
+			<Link to="/">
 				<img src={logo} width='600' height='100' className='d-inline-block align-top' alt='' />
-			</NavLink>
+			</Link>
 			<DropdownMenu />
 		</Nav>
 	);
