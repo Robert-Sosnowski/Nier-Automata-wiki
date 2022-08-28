@@ -85,9 +85,6 @@ function DropdownMenu() {
                 </Dropdown.Menu>
             </Dropdown>
         </>
-        // <DropdownButton id='dropdown-button-dark-example2' variant='secondary' menuVariant='dark' title='O Grze' className='mt-2'>
-        // 	strzałka w dół
-        // </DropdownButton>
     );
 }
 
