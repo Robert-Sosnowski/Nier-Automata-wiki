@@ -2,9 +2,9 @@ import React from 'react';
 
 const World = () => {
     return (
-        <div>
+        <h2>
             World
-        </div>
+        </h2>
     );
 };
 
