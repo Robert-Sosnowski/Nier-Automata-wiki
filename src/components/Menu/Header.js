@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav, NavLink } from 'react-bootstrap';
+import { Nav } from 'react-bootstrap';
 import DropdownMenu from './dropdown-menu';
 import { Link } from "react-router-dom";
 import logo from '../../assets/Nier__Automata_Logo.png';

@@ -24,10 +24,7 @@ function DropdownMenu() {
                     }}>
                         Świat</Link>
                     </Dropdown.Item>
-                    <Dropdown.Divider/>
-                    <Dropdown.Item href='#/more' onMouseEnter="active">
-                        Więcej
-                    </Dropdown.Item>
+
                 </Dropdown.Menu>
             </Dropdown>
             <Dropdown>
@@ -36,15 +33,15 @@ function DropdownMenu() {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu variant='dark'>
-                    <Dropdown.Item href='#/Story' onMouseEnter="active">
-                        Historia
+                    <Dropdown.Item  onMouseEnter="active"><Link to='/characters' style={{
+                        textDecoration: "none",
+                        color: "white"
+                    }}> Bohaterowie</Link>
                     </Dropdown.Item>
-                    <Dropdown.Item href='#/world' onMouseEnter="active">
-                        Świat
-                    </Dropdown.Item>
-                    <Dropdown.Divider/>
-                    <Dropdown.Item href='#/more' onMouseEnter="active">
-                        Więcej
+                    <Dropdown.Item onMouseEnter="active"><Link to='/enemies' style={{
+                        textDecoration: "none",
+                        color: "white"
+                    }}> Wrogowie</Link>
                     </Dropdown.Item>
                 </Dropdown.Menu>
             </Dropdown>
@@ -54,16 +51,27 @@ function DropdownMenu() {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu variant='dark'>
-                    <Dropdown.Item href='#/Story' onMouseEnter="active">
-                        Historia
+                    <Dropdown.Item onMouseEnter="active"><Link to='/weapons' style={{
+                        textDecoration: "none",
+                        color: "white"
+                    }}>Krótkie miecze</Link>
                     </Dropdown.Item>
-                    <Dropdown.Item href='#/world' onMouseEnter="active">
-                        Świat
+                    <Dropdown.Item onMouseEnter="active"><Link to='/world' style={{
+                        textDecoration: "none",
+                        color: "white"
+                    }}>Długie miecze</Link>
                     </Dropdown.Item>
-                    <Dropdown.Divider/>
-                    <Dropdown.Item href='#/more' onMouseEnter="active">
-                        Więcej
+                    <Dropdown.Item  onMouseEnter="active"><Link to='/world' style={{
+                        textDecoration: "none",
+                        color: "white"
+                    }}>Lance</Link>
                     </Dropdown.Item>
+                    <Dropdown.Item  onMouseEnter="active"><Link to='/world' style={{
+                        textDecoration: "none",
+                        color: "white"
+                    }}>Karwasze</Link>
+                    </Dropdown.Item>
+
                 </Dropdown.Menu>
             </Dropdown>
             <Dropdown>
@@ -72,15 +80,20 @@ function DropdownMenu() {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu variant='dark'>
-                    <Dropdown.Item href='#/Story' onMouseEnter="active">
-                        Historia
+                    <Dropdown.Item onMouseEnter="active"><Link to='/races' style={{
+                        textDecoration: "none",
+                        color: "white"
+                    }}>Androidy</Link>
                     </Dropdown.Item>
-                    <Dropdown.Item href='#/world' onMouseEnter="active">
-                        Świat
+                    <Dropdown.Item onMouseEnter="active"><Link to='/races' style={{
+                        textDecoration: "none",
+                        color: "white"
+                    }}>Maszyny</Link>
                     </Dropdown.Item>
-                    <Dropdown.Divider/>
-                    <Dropdown.Item href='#/more' onMouseEnter="active">
-                        Więcej
+                    <Dropdown.Item onMouseEnter="active"><Link to='/races' style={{
+                        textDecoration: "none",
+                        color: "white"
+                    }}>Obcy</Link>
                     </Dropdown.Item>
                 </Dropdown.Menu>
             </Dropdown>
