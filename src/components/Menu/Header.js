@@ -8,7 +8,7 @@ export const Header = () => {
 	return (
 		<Nav
 			style={{
-				background: '#917d6b',
+				background: '#000',
 				display: 'flex',
 				justifyContent: 'space-between',
 				alignItems: 'center',
