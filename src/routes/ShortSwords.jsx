@@ -1,10 +1,11 @@
-import React from "react"
+import React from 'react';
 import background from "../assets/background_image.jpeg";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
- const Story=()=>{
-    return(
+
+const ShortSwords = () => {
+    return (
         <div style={{
             backgroundImage: `url(${background})`,
             backgroundSize: 'cover',
@@ -15,7 +16,8 @@ import Col from "react-bootstrap/Col";
                 background:"#eceade",
                 width:"100%",
                 height:"100%"
-            }}><Row><h2> Story</h2>
+            }}><Row>
+                <h2> Short Swords</h2>
                 <Col>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget cursus nibh. Fusce dignissim
                     dolor quis sapien scelerisque rhoncus. Phasellus tristique imperdiet enim, a pellentesque magna
@@ -147,5 +149,7 @@ import Col from "react-bootstrap/Col";
 
             </Container>
         </div>
-    )}
-    export default Story
+    );
+};
+
+export default ShortSwords;

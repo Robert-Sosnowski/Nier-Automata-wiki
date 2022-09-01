@@ -12,24 +12,19 @@ function DropdownMenu() {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu variant='dark'>
-                    <Dropdown.Item onMouseEnter="active"><Link to='/story' style={{
+                    <Dropdown.Item onMouseEnter="active"><Link to='/game' style={{
                         textDecoration: "none",
                         color: "white"
                     }}>
-                        Historia</Link>
+                       Gra</Link>
                     </Dropdown.Item>
-                    <Dropdown.Item onMouseEnter="active"><Link to='/world' style={{
-                        textDecoration: "none",
-                        color: "white"
-                    }}>
-                        Świat</Link>
-                    </Dropdown.Item>
+
 
                 </Dropdown.Menu>
             </Dropdown>
             <Dropdown>
                 <Dropdown.Toggle id='dropdown-button-dark-example1' variant='secondary'>
-                    Postacie
+                    Lore
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu variant='dark'>
@@ -43,6 +38,17 @@ function DropdownMenu() {
                         color: "white"
                     }}> Wrogowie</Link>
                     </Dropdown.Item>
+                    <Dropdown.Item onMouseEnter="active"><Link to='/world' style={{
+                    textDecoration: "none",
+                    color: "white"
+                }}>
+                    Świat</Link>
+                </Dropdown.Item><Dropdown.Item onMouseEnter="active"><Link to='/story' style={{
+                    textDecoration: "none",
+                    color: "white"
+                }}>
+                   Historia</Link>
+                </Dropdown.Item>
                 </Dropdown.Menu>
             </Dropdown>
             <Dropdown>
@@ -51,22 +57,22 @@ function DropdownMenu() {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu variant='dark'>
-                    <Dropdown.Item onMouseEnter="active"><Link to='/weapons' style={{
+                    <Dropdown.Item onMouseEnter="active"><Link to='/shortswords' style={{
                         textDecoration: "none",
                         color: "white"
                     }}>Krótkie miecze</Link>
                     </Dropdown.Item>
-                    <Dropdown.Item onMouseEnter="active"><Link to='/world' style={{
+                    <Dropdown.Item onMouseEnter="active"><Link to='/longswords' style={{
                         textDecoration: "none",
                         color: "white"
                     }}>Długie miecze</Link>
                     </Dropdown.Item>
-                    <Dropdown.Item  onMouseEnter="active"><Link to='/world' style={{
+                    <Dropdown.Item  onMouseEnter="active"><Link to='/lance' style={{
                         textDecoration: "none",
                         color: "white"
                     }}>Lance</Link>
                     </Dropdown.Item>
-                    <Dropdown.Item  onMouseEnter="active"><Link to='/world' style={{
+                    <Dropdown.Item  onMouseEnter="active"><Link to='/bracers' style={{
                         textDecoration: "none",
                         color: "white"
                     }}>Karwasze</Link>
@@ -80,17 +86,17 @@ function DropdownMenu() {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu variant='dark'>
-                    <Dropdown.Item onMouseEnter="active"><Link to='/races' style={{
+                    <Dropdown.Item onMouseEnter="active"><Link to='/androids' style={{
                         textDecoration: "none",
                         color: "white"
                     }}>Androidy</Link>
                     </Dropdown.Item>
-                    <Dropdown.Item onMouseEnter="active"><Link to='/races' style={{
+                    <Dropdown.Item onMouseEnter="active"><Link to='/machines' style={{
                         textDecoration: "none",
                         color: "white"
                     }}>Maszyny</Link>
                     </Dropdown.Item>
-                    <Dropdown.Item onMouseEnter="active"><Link to='/races' style={{
+                    <Dropdown.Item onMouseEnter="active"><Link to='/aliens' style={{
                         textDecoration: "none",
                         color: "white"
                     }}>Obcy</Link>
