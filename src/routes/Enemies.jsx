@@ -11,6 +11,7 @@ import characterGoliathFlyer from "../assets/Goliath_Flyer.png"
 import characterGrun from "../assets/Grun.png"
 import characterRoShi from "../assets/Ro-Shi.png"
 import characterSoShi from "../assets/So-.png"
+import {GetCharacter} from "../components/GetCharacter";
 
 
 const Enemies = () => {
@@ -28,13 +29,13 @@ const Enemies = () => {
             }}><Row><h2>Główni przeciwnicy</h2>
                 <Col>
                     <div style={{border: "5px", borderColor: "black"}}>
-                        <img src={characterAdam} alt='' style={{width: "50%", height: "50%"}}/>Adam</div>
+                        <img src={characterAdam} alt='' style={{width: "50%", height: "50%"}}/><GetCharacter id={9}/>Adam</div>
 
                 </Col>
                 <Col><div style={{border: "5px", borderColor: "black"}}>
-                    <img src={characterEve} alt='' style={{width: "50%", height: "50%"}}/>Eve</div></Col>
+                    <img src={characterEve} alt='' style={{width: "50%", height: "50%"}}/><GetCharacter id={8}/>Eve</div></Col>
                 <Col><div style={{border: "5px", borderColor: "black"}}>
-                    <img src={characterRedGirl} alt='' style={{width: "50%", height: "50%"}}/>Red Girl</div></Col>
+                    <img src={characterRedGirl} alt='' style={{width: "50%", height: "50%"}}/><GetCharacter id={16}/>Red Girl</div></Col>
             </Row> <Row><h2>Specjalni przeciwnicy</h2>
                 <Col>
                     <div style={{border: "5px", borderColor: "black"}}>
