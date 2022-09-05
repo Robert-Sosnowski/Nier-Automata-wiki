@@ -1,48 +1,56 @@
 {
   "Weapons": [
     {
+      "id": 1,
       "Name": "Type-4O Sword",
       "Class": "Małe miecze",
       "Description": "Zaawansowane ostrze, wydawane elitarnym oddziałom YoRHa na linii frontu. Jego moc wzrasta wraz z naładowaniem.",
       "Ability": "Ogłuszanie, ładowanie energii"
     },
     {
+      "id": 2,
       "Name": "Virtuous Contract",
       "Class": "Małe miecze",
       "Description": "Biały miecz, podobny do tych noszonych przez dawnych samurajów. Wygląda efektownie, ale ostrze jest najwyższej jakości.",
       "Ability": "Zwiększenie prędkości ataku, Święte błogosławieństw"
     },
     {
+      "id": 3,
       "Name": "Beastlord",
       "Class": "Duże miecze",
       "Description": "Ten miecz o zwierzęcym wyglądzie zabija każdego, kto mógłby podważyć autorytet jego posiadacza.",
       "Ability": "Zwiększona wytrzymałość, Ryk Bestii"
     },
     {
+      "id": 4,
       "Name": "Virtuous Treaty",
       "Class": "Duże miecze",
       "Description": "Czysto białe ostrze tego samurajskiego miecza nie zostało jeszcze splamione ani jedną kroplą krwi.",
       "Ability": "Zwiększenie prędkości ataku, Święte błogosławieństwo"
     },
     {
+      "id": 5,
       "Name": "Phoenix Lance",
       "Class": "Włócznie",
       "Description": "Mnisi nosili tę ozdobną włócznię, podobno wykonaną z piór feniksa, na pielgrzymki.",
       "Ability": "Zwiększenie prędkości ataku, Ucieczka feniksa"
     },
     {
+      "id": 6,
       "Name": "Beastcurse",
       "Class": "Włócznie",
       "Description": "Włócznia ozdobiona zwierzęcym motywem, używana niegdyś przez lorda do tłumienia buntu wśród poddanych.",
       "Ability": "Zwiększona wytrzymałość, Ryk Bestii"
     },
     {
+      "id": 7,
       "Name": "Angel's Folly",
       "Class": "Karwasze bojowe",
       "Description": "Broń ukształtowana z nieznanych części, aby przypominać święte skrzydła aniołów.",
       "Ability": "Zwiększenie prędkości ataku, łaska archanioła"
     },
     {
+      "id": 8,
       "Name": "Demon's Cry",
       "Class": "Karwasze bojowe",
       "Description": "Broń ukształtowana w niewidzialnych królestwach, by przypominała bezbożne kły demonów.",

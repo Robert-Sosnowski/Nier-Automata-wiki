@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 
-const API = "http://localhost:3001/characters"
+const API = "http://localhost:3001/Characters"
 export const GetCharacter = ({id}) => {
     const [character, setCharacter] = useState({
         "id": "",
@@ -38,7 +38,7 @@ export const GetCharacter = ({id}) => {
             .then(data => setCharacter(data))
     }
     const clickButton = (id) => {
-console.log(character)
+        console.log(character)
         const a = character.Characters.filter((item) => {
             return item.id === id
         })
@@ -49,8 +49,9 @@ console.log(character)
     useEffect(fetchCharacter, [])
     return (
         <div>
-            <button onClick={()=>{
-             clickButton(id)
+            <button onClick={() => {
+
+                clickButton(id)
             }}>
                 informacje o postaci
             </button>
