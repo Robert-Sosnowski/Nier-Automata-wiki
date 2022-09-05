@@ -1,15 +1,13 @@
 import React, {useEffect, useState} from 'react';
 
-const API = "http://localhost:3001/weapons"
-export const GetWeapon = ({id}) => {
-    const [weapon, setWeapon] = useState({
-        "id": "",
-        "Name": "",
-        "Class": "",
-        "Description": "",
-        "Ability": ""
+const API = "http://localhost:3001/races"
+export const GetRace = ({id}) => {
+    const [race, setRace] = useState({
+        "id":"",
+        "Race": "",
+        "Description": ""
     },);
-    const fetchWeapon = () => {
+    const fetchRace = () => {
         fetch(API)
             .then((res) => {
                 if (res.ok) {
@@ -18,23 +16,23 @@ export const GetWeapon = ({id}) => {
                 throw new Error("Error");
 
             })
-            .then(data => setWeapon(data))
+            .then(data => setRace(data))
     }
-    const clickWeapon = (id) => {
-        console.log(weapon)
-        const a = weapon.Weapons.filter((item) => {
+    const clickRace = (id) => {
+        console.log(race)
+        const a = race.Race.filter((item) => {
             return item.id === id
         })
         console.log(a)
     }
 
 
-    useEffect(fetchWeapon, [])
+    useEffect(fetchRace, [])
     return (
         <div>
             <button onClick={() => {
 
-                clickWeapon(id)
+                clickRace(id)
             }}>
                 informacje
             </button>
