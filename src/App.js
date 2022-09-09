@@ -10,7 +10,7 @@ import Enemies from "./routes/Enemies";
 import Story from "./routes/Story";
 import Game from "./routes/Game";
 import ShortSwords from "./routes/ShortSwords";
-import Bracers from "./routes/ Bracers";
+import Bracers from "./routes/Bracers";
 import Lance from "./routes/Lance";
 import Machine from "./routes/Machine";
 import Aliens from "./routes/Aliens";

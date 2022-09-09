@@ -2,59 +2,59 @@
   "Weapons": [
     {
       "id": 27,
-      "Name": "Type-4O Sword",
-      "Class": "Małe miecze",
-      "Description": "Zaawansowane ostrze, wydawane elitarnym oddziałom YoRHa na linii frontu. Jego moc wzrasta wraz z naładowaniem.",
-      "Ability": "Ogłuszanie, ładowanie energii"
+      "titre": "Type-4O Sword",
+      "class": "Małe miecze",
+      "description": "Zaawansowane ostrze, wydawane elitarnym oddziałom YoRHa na linii frontu. Jego moc wzrasta wraz z naładowaniem.",
+      "ability": "Ogłuszanie, ładowanie energii"
     },
     {
       "id": 28,
-      "Name": "Virtuous Contract",
-      "Class": "Małe miecze",
-      "Description": "Biały miecz, podobny do tych noszonych przez dawnych samurajów. Wygląda efektownie, ale ostrze jest najwyższej jakości.",
-      "Ability": "Zwiększenie prędkości ataku, Święte błogosławieństw"
+      "titre": "Virtuous Contract",
+      "class": "Małe miecze",
+      "description": "Biały miecz, podobny do tych noszonych przez dawnych samurajów. Wygląda efektownie, ale ostrze jest najwyższej jakości.",
+      "ability": "Zwiększenie prędkości ataku, Święte błogosławieństw"
     },
     {
       "id": 29,
-      "Name": "Beastlord",
-      "Class": "Duże miecze",
-      "Description": "Ten miecz o zwierzęcym wyglądzie zabija każdego, kto mógłby podważyć autorytet jego posiadacza.",
-      "Ability": "Zwiększona wytrzymałość, Ryk Bestii"
+      "titre": "Beastlord",
+      "class": "Duże miecze",
+      "description": "Ten miecz o zwierzęcym wyglądzie zabija każdego, kto mógłby podważyć autorytet jego posiadacza.",
+      "ability": "Zwiększona wytrzymałość, Ryk Bestii"
     },
     {
       "id": 30,
-      "Name": "Virtuous Treaty",
-      "Class": "Duże miecze",
-      "Description": "Czysto białe ostrze tego samurajskiego miecza nie zostało jeszcze splamione ani jedną kroplą krwi.",
-      "Ability": "Zwiększenie prędkości ataku, Święte błogosławieństwo"
+      "titre": "Virtuous Treaty",
+      "class": "Duże miecze",
+      "description": "Czysto białe ostrze tego samurajskiego miecza nie zostało jeszcze splamione ani jedną kroplą krwi.",
+      "ability": "Zwiększenie prędkości ataku, Święte błogosławieństwo"
     },
     {
       "id": 31,
-      "Name": "Phoenix Lance",
-      "Class": "Włócznie",
-      "Description": "Mnisi nosili tę ozdobną włócznię, podobno wykonaną z piór feniksa, na pielgrzymki.",
-      "Ability": "Zwiększenie prędkości ataku, Ucieczka feniksa"
+      "titre": "Phoenix Lance",
+      "class": "Włócznie",
+      "description": "Mnisi nosili tę ozdobną włócznię, podobno wykonaną z piór feniksa, na pielgrzymki.",
+      "ability": "Zwiększenie prędkości ataku, Ucieczka feniksa"
     },
     {
       "id": 32,
-      "Name": "Beastcurse",
-      "Class": "Włócznie",
-      "Description": "Włócznia ozdobiona zwierzęcym motywem, używana niegdyś przez lorda do tłumienia buntu wśród poddanych.",
-      "Ability": "Zwiększona wytrzymałość, Ryk Bestii"
+      "titre": "Beastcurse",
+      "class": "Włócznie",
+      "description": "Włócznia ozdobiona zwierzęcym motywem, używana niegdyś przez lorda do tłumienia buntu wśród poddanych.",
+      "ability": "Zwiększona wytrzymałość, Ryk Bestii"
     },
     {
       "id": 33,
-      "Name": "Angel's Folly",
-      "Class": "Karwasze bojowe",
-      "Description": "Broń ukształtowana z nieznanych części, aby przypominać święte skrzydła aniołów.",
-      "Ability": "Zwiększenie prędkości ataku, łaska archanioła"
+      "titre": "Angel's Folly",
+      "class": "Karwasze bojowe",
+      "description": "Broń ukształtowana z nieznanych części, aby przypominać święte skrzydła aniołów.",
+      "ability": "Zwiększenie prędkości ataku, łaska archanioła"
     },
     {
       "id": 34,
-      "Name": "Demon's Cry",
-      "Class": "Karwasze bojowe",
-      "Description": "Broń ukształtowana w niewidzialnych królestwach, by przypominała bezbożne kły demonów.",
-      "Ability": "Zwiększenie prędkości ataku, nienawiść demona"
+      "titre": "Demon's Cry",
+      "class": "Karwasze bojowe",
+      "description": "Broń ukształtowana w niewidzialnych królestwach, by przypominała bezbożne kły demonów.",
+      "ability": "Zwiększenie prędkości ataku, nienawiść demona"
     }
   ]
 }

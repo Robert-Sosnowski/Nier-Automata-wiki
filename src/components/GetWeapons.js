@@ -4,10 +4,10 @@ const API = "http://localhost:3001/weapons"
 export const GetWeapon = ({id}) => {
     const [weapon, setWeapon] = useState({
         "id": "",
-        "Name": "",
-        "Class": "",
-        "Description": "",
-        "Ability": ""
+        "titre": "",
+        "class": "",
+        "description": "",
+        "ability": ""
     },);
     const fetchWeapon = () => {
         fetch(API)

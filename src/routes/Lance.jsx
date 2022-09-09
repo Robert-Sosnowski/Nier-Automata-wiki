@@ -21,10 +21,10 @@ const Lance = () => {
                 height: "100%"
             }}> <Row><h2> Lance</h2>
                 <Col>
-                    <img src={Phoenix} alt={""}/><GetWeapon id={5}/>
+                    <img src={Phoenix} alt={""}/><GetWeapon id={31}/>
                     Phoenix Lance
                 </Col>
-                <Col><img src={Beast} alt={""}/><GetWeapon id={6}/> Beastcurse</Col>
+                <Col><img src={Beast} alt={""}/><GetWeapon id={32}/> Beastcurse</Col>
             </Row>
             </Container>
         </div>

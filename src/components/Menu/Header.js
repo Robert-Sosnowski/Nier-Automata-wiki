@@ -3,7 +3,7 @@ import { Nav } from 'react-bootstrap';
 import DropdownMenu from './dropdown-menu';
 import { Link } from "react-router-dom";
 import logo from '../../assets/Nier__Automata_Logo.png';
-
+import SearchBar from "../SearchBar";
 export const Header = () => {
 	return (
 		<Nav
@@ -20,6 +20,7 @@ export const Header = () => {
 				<img src={logo} width='600' height='100' className='d-inline-block align-top' alt='' />
 			</Link>
 			<DropdownMenu />
+			<SearchBar placeholder="Wyszukaj" data/>
 		</Nav>
 	);
 };

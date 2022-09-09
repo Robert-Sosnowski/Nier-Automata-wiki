@@ -21,11 +21,11 @@ const ShortSwords = () => {
             }}><Row>
                 <h2> Short Swords</h2>
                 <Col>
-                    <img src={Virt} alt={''}/><GetWeapon id={2} />
+                    <img src={Virt} alt={''}/><GetWeapon id={28} />
                     Virtuous Contract
                 </Col>
                 <Col>
-                    <img src={type40} alt={''}/><GetWeapon id={1}/>
+                    <img src={type40} alt={''}/><GetWeapon id={27}/>
                     Type-40 sword
                 </Col>
             </Row>

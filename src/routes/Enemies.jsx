@@ -11,6 +11,7 @@ import characterGoliathFlyer from "../assets/Goliath_Flyer.png"
 import characterGrun from "../assets/Grun.png"
 import characterRoShi from "../assets/Ro-Shi.png"
 import characterSoShi from "../assets/So-.png"
+import characterEngels from "../assets/Engels.png"
 import {GetCharacter} from "../components/GetCharacter";
 import {GetEnemy} from "../components/GetEnemies";
 
@@ -39,32 +40,32 @@ const Enemies = () => {
             </Row> <Row><h2>Specjalni przeciwnicy</h2>
                 <Col>
                     <div style={{border: "5px", borderColor: "black"}}>
-                        <img src={characterRoShi} alt='' style={{width: "50%", height: "50%"}}/><GetEnemy id={4}/> Ro-Shi</div>
+                        <img src={characterRoShi} alt='' style={{width: "50%", height: "50%"}}/><GetEnemy id={20}/> Ro-Shi</div>
 
                 </Col>
                 <Col>
                     <div style={{border: "5px", borderColor: "black"}}>
-                        <img src={characterBokuShi} alt='' style={{width: "50%", height: "50%"}}/><GetEnemy id={3}/>Boku-Shi</div>
+                        <img src={characterBokuShi} alt='' style={{width: "50%", height: "50%"}}/><GetEnemy id={19}/>Boku-Shi</div>
 
                 </Col>
                 <Col>
                     <div style={{border: "5px", borderColor: "black"}}>
-                        <img src={characterRoShi} alt='' style={{width: "50%", height: "50%"}}/><GetEnemy id={4}/>Ro-Shi</div>
+                        <img src={characterEngels} alt='' style={{width: "50%", height: "50%"}}/><GetEnemy id={21}/>Engels</div>
 
                 </Col>
                 <Col>
                     <div style={{border: "5px", borderColor: "black"}}>
-                        <img src={characterGoliathFlyer} alt='' style={{width: "50%", height: "50%"}}/><GetEnemy id={6}/>Goliath Flyer</div>
+                        <img src={characterGoliathFlyer} alt='' style={{width: "50%", height: "50%"}}/><GetEnemy id={22}/>Goliath Flyer</div>
 
                 </Col>
                 <Col>
                     <div style={{border: "5px", borderColor: "black"}}>
-                        <img src={characterGrun} alt='' style={{width: "50%", height: "50%"}}/><GetEnemy id={7}/>Grun</div>
+                        <img src={characterGrun} alt='' style={{width: "50%", height: "50%"}}/><GetEnemy id={23}/>Grun</div>
 
                 </Col>
                 <Col>
                     <div style={{border: "5px", borderColor: "black"}}>
-                        <img src={characterSoShi} alt='' style={{width: "50%", height: "50%"}}/><GetEnemy id={1}/>So-Shi</div>
+                        <img src={characterSoShi} alt='' style={{width: "50%", height: "50%"}}/><GetEnemy id={17}/>So-Shi</div>
 
                 </Col>
 

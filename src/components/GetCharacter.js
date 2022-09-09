@@ -4,27 +4,27 @@ const API = "http://localhost:3001/Characters"
 export const GetCharacter = ({id}) => {
     const [character, setCharacter] = useState({
         "id": "",
-        "Name": "",
-        "Full-name": "",
-        "Race": "",
-        "Occupation": "",
-        "Sex": "",
-        "Age": "",
-        "Weapon": {
-            "Initial": "",
-            "Route C/D": ""
+        "titre": "",
+        "fullTitre": "",
+        "race": "",
+        "occupation": "",
+        "sex": "",
+        "age": "",
+        "weapon": {
+            "initial": "",
+            "routeC/D": ""
         },
-        "Born": "",
-        "Height": "",
-        "Weight": "",
-        "Hair-color": "",
-        "Eye-color": {
-            "Passive": "",
-            "Combat Mode": ""
+        "born": "",
+        "height": "",
+        "weight": "",
+        "hairColor": "",
+        "eyeColor": {
+            "passive": "",
+            "combatMode": ""
         },
-        "Family": "",
-        "Japanese-voice": "",
-        "English-voice": ""
+        "family": "",
+        "japaneseVoice": "",
+        "englishVoice": ""
     },);
     const fetchCharacter = () => {
         fetch(API)
@@ -47,16 +47,22 @@ export const GetCharacter = ({id}) => {
 
 
     useEffect(fetchCharacter, [])
-    return (
-        <div>
-            <button onClick={() => {
+    return <div>
+        <button onClick={() => {
 
-                clickButton(id)
-            }}>
-                informacje o postaci
-            </button>
-        </div>
-    );
+            clickButton(id)
+        }}>
+            informacje o postaci
+        </button>
+        <ul>
+            {character.list ? character.map(({id,titre,englishVoice})):(
+                <li key={id}>
+                    {character.titre}-{character.englishVoice}</li>
+
+            )}
+                )}
+        </ul>
+    </div>;
 
 }
 

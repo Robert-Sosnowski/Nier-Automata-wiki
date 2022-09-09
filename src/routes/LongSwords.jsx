@@ -21,11 +21,11 @@ import {GetWeapon} from "../components/GetWeapons";
             }}><Row>
                 <h2> Long Sword</h2>
                 <Col>
-                    <img src={Virtuos} alt={''}/><GetWeapon id={4}/>
+                    <img src={Virtuos} alt={''}/><GetWeapon id={30}/>
                     Virtuos Treaty
                 </Col>
                 <Col>
-                    <img src={Beastlord} alt={''}/><GetWeapon id={3}/>
+                    <img src={Beastlord} alt={''}/><GetWeapon id={29}/>
                     Beastlord
                 </Col>
             </Row>

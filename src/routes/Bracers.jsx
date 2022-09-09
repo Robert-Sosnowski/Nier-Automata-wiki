@@ -21,11 +21,11 @@ const Bracers = () => {
                 height: "100%"
             }}><Row><h2>Bracers</h2>
                 <Col>
-                    <img src={Angel} alt={''}/><GetWeapon id={7}/>
+                    <img src={Angel} alt={''}/><GetWeapon id={33}/>
                     Angels Folly
                 </Col>
                 <Col>
-                    <img src={Demon} alt={''}/><GetWeapon id={8}/>
+                    <img src={Demon} alt={''}/><GetWeapon id={34}/>
                 </Col>
             </Row>
             </Container>

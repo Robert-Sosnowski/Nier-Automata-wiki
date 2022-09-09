@@ -1,9 +1,9 @@
 const characters = require('./characters.json');
-const charactersDetails = require('./characters-details.json');
+const charactersDetails = require('./charactersDetails.json');
 const enemies = require('./enemies.json');
-const enemiesDetails = require('./enemies-details.json');
+const enemiesDetails = require('./enemiesDetails.json');
 const races = require('./races.json');
-const racesDetails = require('./races-details.json');
+const racesDetails = require('./racesDetails.json');
 const weapons = require('./weapons.json');
 
 

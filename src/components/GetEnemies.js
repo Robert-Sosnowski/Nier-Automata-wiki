@@ -5,9 +5,9 @@ const API = "http://localhost:3001/Enemies"
 export const GetEnemy = ({id}) => {
     const [enemy, setEnemy] = useState({
         "id": "",
-        "Name": "",
-        "Race":"",
-        "Zone":""
+        "titre": "",
+        "race":"",
+        "zone":""
     },);
     const fetchEnemy = () => {
         fetch(API)

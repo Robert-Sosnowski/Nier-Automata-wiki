@@ -4,8 +4,8 @@ const API = "http://localhost:3001/races"
 export const GetRace = ({id}) => {
     const [race, setRace] = useState({
         "id":"",
-        "Race": "",
-        "Description": ""
+        "race": "",
+        "description": ""
     },);
     const fetchRace = () => {
         fetch(API)
