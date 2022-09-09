@@ -1,9 +1,8 @@
 import React, {useEffect, useState} from 'react';
-
-// const API = "http://localhost:3001/Characters"
+import {ScrollView,View, Text} from "react-native";
 export const GetCharacter = () => {
     const [character, setCharacter] = useState([]);
-
+const Characters=()=>{
     useEffect(() => {
         fetch("http://localhost:3001/Characters")
             .then((res) => {
@@ -15,17 +14,26 @@ export const GetCharacter = () => {
             .then((data) => {
             console.log(data);
             setCharacter(data);
+            console.log(setCharacter)
             });
-    }, []);
+    }, []);}
     const clickButton = () => {
+
         return (
-            <ul>
-                {character.map((id) => (
-                    <li key={id}>
-                        {character.id}-{character.length} {character.length}{" "}
-                    </li>
-                ))}
-            </ul>
+
+                <ScrollView>
+                    <View>
+                        {character.Characters.map((id) => {
+                            return (
+                                <View>
+                                    <Text >{character.titre}</Text>
+                                </View>
+                            );
+                        })}
+                    </View>
+                </ScrollView>
+
+
         );
     };
 
