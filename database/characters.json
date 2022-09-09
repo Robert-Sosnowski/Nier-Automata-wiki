@@ -45,8 +45,8 @@
         "combatMode": ""
       },
       "Family": "",
-      "JapaneseVoice": "Natsuki Hanae",
-      "EnglishVoice": "Kyle McCarley"
+      "japaneseVoice": "Natsuki Hanae",
+      "englishVoice": "Kyle McCarley"
     },
     {
       "id": 3,

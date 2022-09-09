@@ -5,7 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Virtuos from'../assets/Virtuous_Treaty.png'
 import Beastlord from '../assets/Beastlord.png'
-import {GetWeapon} from "../components/GetWeapons";
+import {GetWeapons} from "../components/GetWeapons";
  const LongSwords=()=>{
     return(
         <div style={{
@@ -21,11 +21,11 @@ import {GetWeapon} from "../components/GetWeapons";
             }}><Row>
                 <h2> Long Sword</h2>
                 <Col>
-                    <img src={Virtuos} alt={''}/><GetWeapon id={30}/>
+                    <img src={Virtuos} alt={''}/><GetWeapons id={30}/>
                     Virtuos Treaty
                 </Col>
                 <Col>
-                    <img src={Beastlord} alt={''}/><GetWeapon id={29}/>
+                    <img src={Beastlord} alt={''}/><GetWeapons id={29}/>
                     Beastlord
                 </Col>
             </Row>

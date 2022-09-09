@@ -5,7 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Angel from "../assets/Angels_Folly-0.png"
 import Demon from "../assets/Demons_Cry.png"
-import {GetWeapon} from "../components/GetWeapons";
+import {GetWeapons} from "../components/GetWeapons";
 
 const Bracers = () => {
     return (
@@ -21,11 +21,11 @@ const Bracers = () => {
                 height: "100%"
             }}><Row><h2>Bracers</h2>
                 <Col>
-                    <img src={Angel} alt={''}/><GetWeapon id={33}/>
+                    <img src={Angel} alt={''}/><GetWeapons id={33}/>
                     Angels Folly
                 </Col>
                 <Col>
-                    <img src={Demon} alt={''}/><GetWeapon id={34}/>
+                    <img src={Demon} alt={''}/><GetWeapons id={34}/>
                 </Col>
             </Row>
             </Container>
