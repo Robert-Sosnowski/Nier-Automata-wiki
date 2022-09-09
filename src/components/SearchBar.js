@@ -20,13 +20,13 @@ const SearchBar = ({placeholder, data}) => {
                 <div style={{color:"black"}}><SearchIcon/></div>
 
             </div>
-            {filteredData.length !==0}&&(
-            <div>
-                {/*{filteredData.map((value, key)=>{*/}
-                {/*    return*/}
-                {/*    <div>{value.id}</div>*/}
-                {/*})}*/}
-            </div>)
+            {/*{filteredData.length !==0}&&(*/}
+            {/*<div>*/}
+            {/*    /!*{filteredData.map((value, key)=>{*!/*/}
+            {/*    /!*    return*!/*/}
+            {/*    /!*    <div>{value.id}</div>*!/*/}
+            {/*    /!*})}*!/*/}
+            {/*</div>)*/}
         </div>
     );
 };
