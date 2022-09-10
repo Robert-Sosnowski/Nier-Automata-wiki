@@ -1,8 +1,9 @@
-import React, {useEffect, useState} from 'react';
-import {ScrollView,View, Text} from "react-native";
-export const GetCharacter = () => {
-    const [character, setCharacter] = useState([]);
-const Characters=()=>{
+import React, {useEffect,} from 'react';
+
+export const GetCharacter = (props) => {
+    let characters = [];
+    let character;
+
     useEffect(() => {
         fetch("http://localhost:3001/Characters")
             .then((res) => {
@@ -12,31 +13,29 @@ const Characters=()=>{
                 throw new Error("Error");
             })
             .then((data) => {
-            console.log(data);
-            setCharacter(data);
-            console.log(setCharacter)
-            });
-    }, []);}
+                console.log(data)
+                characters = data.Characters;
+                character = data.Characters.find((c) => {
+                    return c.id === props.id;
+                });
+                console.log(`ID: ${character.id} Name: ${character.titre}`);
+            }).catch((e) => {
+            throw(e);
+        });
+
+    })
+
+
     const clickButton = () => {
-
-        return (
-
-                <ScrollView>
-                    <View>
-                        {character.Characters.map((id) => {
-                            return (
-                                <View>
-                                    <Text >{character.titre}</Text>
-                                </View>
-                            );
-                        })}
-                    </View>
-                </ScrollView>
-
+        console.log("Kliknięto mnie")
+        return (<>
+                <ul>
+                    {characters.map((id) => (
+                        <li key={id}>{character.id}-{character.englishVoice}</li>))}
+                </ul></>
 
         );
     };
-
     return (
         <div>
             <button onClick={clickButton}>informacje o postaci</button>
