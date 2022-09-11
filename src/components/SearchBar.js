@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import SearchIcon from '@mui/icons-material/Search';
-const AllData='http://localhost:3001/characters';
+const AllData='http://localhost:3001/';
 const SearchBar = ({placeholder, data}) => {
     const [filteredData, setFilteredData]=useState([])
     const handleFilter=(event)=>{

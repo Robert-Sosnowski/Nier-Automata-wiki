@@ -3,43 +3,43 @@
     {
       "id": 17,
       "titre": "So-Shi",
-      "race": "Maszyna Specjalnego typu",
+      "kind": "Maszyna Specjalnego typu",
       "zone": "Porzucona Fabryka"
     },
     {
       "id": 18,
       "titre": "Goliath Tank (Standard)",
-      "race": "Maszyna Specjalnego typu",
+      "kind": "Maszyna Specjalnego typu",
       "zone": "Porzucona Fabryka"
     },
     {
       "id": 19,
       "titre": "Boku-Shi",
-      "race": "Maszyna Specjalnego typu",
+      "kind": "Maszyna Specjalnego typu",
       "zone": "Ruiny Miasta"
     },
     {
       "id": 20,
       "titre": "Ro-Shi",
-      "race": "Maszyna Specjalnego typu",
+      "kind": "Maszyna Specjalnego typu",
       "zone": "Wieża"
     },
     {
       "id": 21,
       "titre": "Engels",
-      "race": "Maszyna Specjalnego typu",
+      "kind": "Maszyna Specjalnego typu",
       "zone": "Porzucona Fabryka, Ruiny Miasta"
     },
     {
       "id": 22,
       "titre": "Goliath Flyer",
-      "race": "Maszyna Specjalnego typu",
+      "kind": "Maszyna Specjalnego typu",
       "zone": "Zatopione Miasto"
     },
     {
       "id": 23,
       "titre": "Grün",
-      "race": "Maszyna Specjalnego typu",
+      "kind": "Maszyna Specjalnego typu",
       "zone": "Zatopione Miasto"
     }
   ]

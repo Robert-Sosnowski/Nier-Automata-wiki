@@ -1,47 +1,46 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect, useState,} from 'react';
 
-const API = "http://localhost:3001/charactersDetails"
-export const GetCharacter = ({id}) => {
-    const [details, setDetails] = useState({
-        "id": 48,
-        "titre": "",
-        "history":""
-    },);
-    const fetchDetails = () => {
-        fetch(API)
+export const GetCharactersDetails = (props) => {
+    const [characterDetails, setCharacterDetails] = useState(null);
+    useEffect(() => {}, [characterDetails])
+    const fetchCharacterDetail = () => {
+
+        fetch("http://localhost:3001/charactersDetails")
             .then((res) => {
+
                 if (res.ok) {
                     return res.json();
                 }
-                throw new Error("Error");
-
+                throw new Error("Error")
             })
-            .then(data => setDetails(data))
+            .then((data) => {
+
+                const char = data.charactersDetails.find((item) => {
+                    return item.id === props.id
+
+                });
+                setCharacterDetails(char);
+            })
+            .catch((err) => console.log(err));
     }
-    const clickButton = (id) => {
-        console.log(details)
-        const a = details.CharactersDetails.filter((item) => {
-            return item.id === id
-        })
-        console.log(a)
-    }
 
 
-    useEffect(fetchDetails, [])
-    return <div>
-        <button onClick={() => {
+    return (
+        <>
 
-            clickButton(id)
-        }}>
-            Więcej informacji
-        </button>
-        {/*<ul>*/}
-        {/*    {character.list ? character.map(({id,Name,EnglishVoice})):(*/}
-        {/*        <li key={id}>*/}
-        {/*    {character.Name}-{character.EnglishVoice}</li>*/}
-        {/*        */}
-        {/*        )}*/}
-        {/*</ul>*/}
-    </div>;
+            <button onClick={fetchCharacterDetail}> Więcej informacji</button>
+            {characterDetails &&
+                <ul style={{
+                    backgroundColor:"black",
+                    color:"white"
+                }}>
+                    <li>id{characterDetails.id}</li>
+                    <li>Imię:{characterDetails.titre} </li>
+                    <li>Historia:{characterDetails.history} </li>
+
+                </ul>
+            }
+        </>)
+
 
 }

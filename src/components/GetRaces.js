@@ -1,37 +1,47 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect, useState,} from 'react';
 
-const API = "http://localhost:3001/races"
-export const GetRace =  () => {
-    const [race, setRace] = useState([]);
-    {
-        useEffect(() => {
-            getAPI(API)
-        });
-        const getAPI = (data) => {
-            console.log(data)
-            fetch(data)
-                .then((res) => {
+export const GetRace = (props) => {
+    const [races, setRaces] = useState(null);
+    useEffect(() => {}, [races])
+    const fetchRace = () => {
 
-                    if (res.ok) {
-                        return res.json();
-                    }
-                    throw new Error("Error");
-                })
-                .then(data => {
-                    console.log(data)
-                    setRace({data})
-                })
-        }
-        const clickButton=()=>{
-            return <ul>
-                {race.map((id)=><li key={id}>{race.id}-{race.length} {race.length} </li>)}
-            </ul>
-        }
+        fetch("http://localhost:3001/races")
+            .then((res) => {
 
-        return <div>
-            <button onClick={clickButton}>informacje
-            </button>
-        </div>;
+                if (res.ok) {
+                    return res.json();
+                }
+                throw new Error("Error")
+            })
+            .then((data) => {
+
+                const char = data.Races.find((item) => {
+                    return item.id === props.id
+
+                });
+                setRaces(char);
+            })
+            .catch((err) => console.log(err));
     }
+
+
+    return (
+        <>
+
+            <button onClick={fetchRace}> informacje</button>
+            {races &&
+                <ul style={{
+                backgroundColor:"black",
+                color:"white",
+                    textDecoration:"none"
+            }}>
+
+                    <li >Nazwa:{races.kind} </li>
+                    <li >Opis:{races.description}</li>
+
+                </ul>
+            }
+        </>)
+
 
 }

@@ -22,7 +22,7 @@ const Bracers = () => {
             }}><Row><h2>Bracers</h2>
                 <Col>
                     <img src={Angel} alt={''}/><GetWeapons id={33}/>
-                    Angels Folly
+
                 </Col>
                 <Col>
                     <img src={Demon} alt={''}/><GetWeapons id={34}/>

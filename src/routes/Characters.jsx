@@ -21,65 +21,87 @@ const Characters = () => {
             backgroundImage: `url(${background})`,
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat', width: "100%",
-            height: "100vh"
+            height: "100%"
         }}>
             <Container style={{
                 background: "#eceade",
                 width: "100%",
-                height: "100vh"
+                height: "100%"
             }}><Row><h2>Postacie grywalne</h2>
                 <Col>
                     <div style={{border: "5px", borderColor: "black"}}>
-                        <img src={character2b} alt='' style={{width: "50%", height: "50%"}}/><GetCharacter id={1}/>2B</div>
+                        <img src={character2b} alt='' style={{width: "50%", height: "50%"}}/>
+                        <GetCharacter id={1}/>
+                    </div>
 
                 </Col>
                 <Col>
                     <div style={{border: "5px", borderColor: "black"}}>
-                        <img src={character9s} alt='' style={{width: "50%", height: "50%"}}/><GetCharacter id={2}/>9s</div>
+                        <img src={character9s} alt='' style={{width: "50%", height: "50%"}}/>
+                        <GetCharacter id={2}/>
+                    </div>
                 </Col>
                 <Col>
                     <div style={{border: "5px", borderColor: "black"}}>
-                        <img src={characterA2} alt='' style={{width: "50%", height: "50%"}}/><GetCharacter id={3}/>A2</div>
+                        <img src={characterA2} alt='' style={{width: "50%", height: "50%"}}/>
+                        <GetCharacter id={3}/>
+                    </div>
                 </Col>
             </Row> <Row><h2>Postacie niegrywalne</h2>
                 <Col>
                     <div style={{border: "5px", borderColor: "black"}}>
-                        <img src={characterAnemone} alt='' style={{width: "75%", height: "75%"}}/><GetCharacter id={11}/>Anemone</div>
+                        <img src={characterAnemone} alt='' style={{width: "75%", height: "75%"}}/>
+                        <GetCharacter id={11}/>
+                    </div>
 
                 </Col>
                 <Col>
                     <div style={{border: "5px", borderColor: "black"}}>
-                        <img src={characterPopola} alt='' style={{width: "75%", height: "75%"}}/><GetCharacter id={6}/>Popola</div>
+                        <img src={characterPopola} alt='' style={{width: "75%", height: "75%"}}/>
+                        <GetCharacter id={6}/>
+                    </div>
 
                 </Col>
                 <Col>
                     <div style={{border: "5px", borderColor: "black"}}>
-                        <img src={characterDevola} alt='' style={{width: "75%", height: "75%"}}/><GetCharacter id={5}/> Devola</div>
+                        <img src={characterDevola} alt='' style={{width: "75%", height: "75%"}}/>
+                        <GetCharacter id={5}/>
+                    </div>
 
                 </Col>
                 <Col>
                     <div style={{border: "5px", borderColor: "black"}}>
-                        <img src={characterPascal} alt='' style={{width: "75%", height: "75%"}}/><GetCharacter id={7}/>Pascal</div>
+                        <img src={characterPascal} alt='' style={{width: "75%", height: "75%"}}/>
+                        <GetCharacter id={7}/>
+                    </div>
 
                 </Col>
                 <Col>
                     <div style={{border: "5px", borderColor: "black"}}>
-                        <img src={characterEmil} alt='' style={{width: "75%", height: "75%"}}/><GetCharacter id={10}/>Emil</div>
+                        <img src={characterEmil} alt='' style={{width: "75%", height: "75%"}}/>
+                        <GetCharacter id={10}/>
+                    </div>
 
                 </Col>
                 <Col>
                     <div style={{border: "5px", borderColor: "black"}}>
-                        <img src={characterCommander} alt='' style={{width: "75%", height: "75%"}}/><GetCharacter id={4}/>Commander</div>
+                        <img src={characterCommander} alt='' style={{width: "75%", height: "75%"}}/>
+                        <GetCharacter id={4}/>
+                    </div>
 
                 </Col>
                 <Col>
                     <div style={{border: "5px", borderColor: "black"}}>
-                        <img src={character21O} alt='' style={{width: "75%", height: "75%"}}/><GetCharacter id={12}/>Operator 21O</div>
+                        <img src={character21O} alt='' style={{width: "75%", height: "75%"}}/>
+                        <GetCharacter id={12}/>
+                    </div>
 
                 </Col>
                 <Col>
                     <div style={{border: "5px", borderColor: "black"}}>
-                        <img src={character6O} alt='' style={{width: "75%", height: "75%"}}/><GetCharacter id={13}/>Operator 6O</div>
+                        <img src={character6O} alt='' style={{width: "75%", height: "75%"}}/>
+                        <GetCharacter id={13}/>
+                    </div>
 
                 </Col>
 

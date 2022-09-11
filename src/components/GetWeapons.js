@@ -1,37 +1,44 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect, useState,} from 'react';
 
-const API = "http://localhost:3001/Weapons"
-export const GetWeapons =  () => {
-    const [weapon, setWeapon] = useState([]);
-    {
-        useEffect(() => {
-            getAPI(API)
-        });
-        const getAPI = (data) => {
-            console.log(data)
-            fetch(data)
-                .then((res) => {
+export const GetWeapons = (props) => {
+    const [weapon, setWeapon] = useState(null);
+    useEffect(() => {}, [weapon])
+    const fetchCharacter = () => {
 
-                    if (res.ok) {
-                        return res.json();
-                    }
-                    throw new Error("Error");
-                })
-                .then(data => {
-                    console.log(data)
-                    setWeapon({data})
-                })
-        }
-        const clickButton=()=>{
-            return <ul>
-                {weapon.map((id)=><li key={id}>{weapon.id}-{weapon.length} {weapon.length} </li>)}
-            </ul>
-        }
+        fetch("http://localhost:3001/weapons")
+            .then((res) => {
 
-        return <div>
-            <button onClick={clickButton}>informacje o postaci
-            </button>
-        </div>;
+                if (res.ok) {
+                    return res.json();
+                }
+                throw new Error("Error")
+            })
+            .then((data) => {
+
+                const char = data.Weapons.find((item) => {
+                    return item.id === props.id
+
+                });
+                setWeapon(char);
+            })
+            .catch((err) => console.log(err));
     }
+
+
+    return (
+        <>
+
+            <button onClick={fetchCharacter}> informacje o broni</button>
+            {weapon &&
+                <>
+                    <div>Nazwa:{weapon.titre} </div>
+                    <div>Klasa:{weapon.class}</div>
+                    <div>Opis:{weapon.description}</div>
+                    <div>Zdolność specjalna:{weapon.ability}</div>
+
+                </>
+            }
+        </>)
+
 
 }

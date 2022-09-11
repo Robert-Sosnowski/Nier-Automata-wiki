@@ -1,37 +1,45 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect, useState,} from 'react';
+import {GetEnemiesDetails} from "./GetEnemiesDetails";
 
-const API = "http://localhost:3001/Enemies"
-export const GetEnemy =  () => {
-    const [enemy, setEnemy] = useState([]);
-    {
-        useEffect(() => {
-            getAPI(API)
-        });
-        const getAPI = (data) => {
-            console.log(data)
-            fetch(data)
-                .then((res) => {
+export const GetEnemy = (props) => {
+    const [enemy, setEnemy] = useState(null);
+    useEffect(() => {}, [enemy])
+    const fetchEnemy = () => {
 
-                    if (res.ok) {
-                        return res.json();
-                    }
-                    throw new Error("Error");
-                })
-                .then(data => {
-                    console.log(data)
-                    setEnemy({data})
-                })
-        }
-        const clickButton=()=>{
-            return <ul>
-                {enemy.map((id)=><li key={id}>{enemy.id}-{enemy.length} {enemy.length} </li>)}
-            </ul>
-        }
+        fetch("http://localhost:3001/enemies")
+            .then((res) => {
 
-        return <div>
-            <button onClick={clickButton}>informacje o postaci
-            </button>
-        </div>;
+                if (res.ok) {
+                    return res.json();
+                }
+                throw new Error("Error")
+            })
+            .then((data) => {
+                console.log(data)
+                const char = data.Enemies.find((item) => {
+                    return item.id === props.id
+
+                });
+                setEnemy(char);
+            })
+            .catch((err) => console.log(err));
     }
+
+
+    return (
+        <>
+
+            <button onClick={fetchEnemy}> informacje o postaci</button>
+            {enemy &&
+                <ul>
+                    <li>Imię:{enemy.titre} </li>
+                    <li>Gatunek:{enemy.kind}</li>
+                    <li>Obszar występowania:{enemy.zone}</li>
+                    <GetEnemiesDetails/>
+
+                </ul>
+            }
+        </>)
+
 
 }

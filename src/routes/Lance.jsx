@@ -22,9 +22,9 @@ const Lance = () => {
             }}> <Row><h2> Lance</h2>
                 <Col>
                     <img src={Phoenix} alt={""}/><GetWeapons id={31}/>
-                    Phoenix Lance
+                   
                 </Col>
-                <Col><img src={Beast} alt={""}/><GetWeapons id={32}/> Beastcurse</Col>
+                <Col><img src={Beast} alt={""}/><GetWeapons id={32}/> </Col>
             </Row>
             </Container>
         </div>

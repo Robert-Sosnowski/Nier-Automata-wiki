@@ -30,42 +30,62 @@ const Enemies = () => {
             }}><Row><h2>Główni przeciwnicy</h2>
                 <Col>
                     <div style={{border: "5px", borderColor: "black"}}>
-                        <img src={characterAdam} alt='' style={{width: "50%", height: "50%"}}/><GetCharacter id={9}/>Adam</div>
+                        <img src={characterAdam} alt='' style={{width: "50%", height: "50%"}}/>
+                        <GetCharacter id={9}/>
+                    </div>
 
                 </Col>
                 <Col><div style={{border: "5px", borderColor: "black"}}>
-                    <img src={characterEve} alt='' style={{width: "50%", height: "50%"}}/><GetCharacter id={8}/>Eve</div></Col>
+                    <img src={characterEve} alt='' style={{width: "50%", height: "50%"}}/>
+                    <GetCharacter id={8}/>
+                </div>
+                </Col>
                 <Col><div style={{border: "5px", borderColor: "black"}}>
-                    <img src={characterRedGirl} alt='' style={{width: "50%", height: "50%"}}/><GetCharacter id={16}/>Red Girl</div></Col>
+                    <img src={characterRedGirl} alt='' style={{width: "50%", height: "50%"}}/>
+                    <GetCharacter id={16}/>
+                </div>
+                </Col>
             </Row> <Row><h2>Specjalni przeciwnicy</h2>
                 <Col>
                     <div style={{border: "5px", borderColor: "black"}}>
-                        <img src={characterRoShi} alt='' style={{width: "50%", height: "50%"}}/><GetEnemy id={20}/> Ro-Shi</div>
+                        <img src={characterRoShi} alt='' style={{width: "50%", height: "50%"}}/>
+                        <GetEnemy id={20}/>
+                    </div>
 
                 </Col>
                 <Col>
                     <div style={{border: "5px", borderColor: "black"}}>
-                        <img src={characterBokuShi} alt='' style={{width: "50%", height: "50%"}}/><GetEnemy id={19}/>Boku-Shi</div>
+                        <img src={characterBokuShi} alt='' style={{width: "50%", height: "50%"}}/>
+                        <GetEnemy id={19}/>
+                    </div>
 
                 </Col>
                 <Col>
                     <div style={{border: "5px", borderColor: "black"}}>
-                        <img src={characterEngels} alt='' style={{width: "50%", height: "50%"}}/><GetEnemy id={21}/>Engels</div>
+                        <img src={characterEngels} alt='' style={{width: "50%", height: "50%"}}/>
+                        <GetEnemy id={21}/>
+                    </div>
 
                 </Col>
                 <Col>
                     <div style={{border: "5px", borderColor: "black"}}>
-                        <img src={characterGoliathFlyer} alt='' style={{width: "50%", height: "50%"}}/><GetEnemy id={22}/>Goliath Flyer</div>
+                        <img src={characterGoliathFlyer} alt='' style={{width: "50%", height: "50%"}}/>
+                        <GetEnemy id={22}/>
+                    </div>
 
                 </Col>
                 <Col>
                     <div style={{border: "5px", borderColor: "black"}}>
-                        <img src={characterGrun} alt='' style={{width: "50%", height: "50%"}}/><GetEnemy id={23}/>Grun</div>
+                        <img src={characterGrun} alt='' style={{width: "50%", height: "50%"}}/>
+                        <GetEnemy id={23}/>
+                    </div>
 
                 </Col>
                 <Col>
                     <div style={{border: "5px", borderColor: "black"}}>
-                        <img src={characterSoShi} alt='' style={{width: "50%", height: "50%"}}/><GetEnemy id={17}/>So-Shi</div>
+                        <img src={characterSoShi} alt='' style={{width: "50%", height: "50%"}}/>
+                        <GetEnemy id={17}/>
+                    </div>
 
                 </Col>
 

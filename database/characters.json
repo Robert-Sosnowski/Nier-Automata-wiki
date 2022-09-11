@@ -4,13 +4,13 @@
       "id": 1,
       "titre": "2B",
       "fullTitre": "YoRHa Nr.2 Typ B (Bojowy)",
-      "race": "Android",
+      "kind": "Android",
       "occupation": "Żołnierz YoRHa ",
       "sex": "Żeński model",
       "age": "2-3",
       "weapon": {
         "initial": "Virtuous Contract",
-        "routeC/D": ""
+        "routeCD": ""
       },
       "born": "7 Styczeń, 11942 (stworzona)",
       "height": "168cm (razem z butami)",
@@ -28,13 +28,13 @@
       "id": 2,
       "titre": "9S",
       "fullTitre": "YoRHa Nr.9 Typ S (Skaner)",
-      "race": "YoRHa Android",
+      "kind": "YoRHa Android",
       "occupation": "Jednostka Skanująca YoRHa ",
       "sex": "Męski model",
       "age": "3½",
       "weapon": {
         "initial": "Cruel Oath",
-        "routeC/D": ""
+        "routeCD": ""
       },
       "born": "30 Styczeń, 11942 (stworzony)",
       "height": "160cm",
@@ -52,13 +52,13 @@
       "id": 3,
       "titre": "A2",
       "fullTitre": "YoRHa Typ A (Atakujący) Nr.2 ",
-      "race": "YoRHa Android",
+      "kind": "YoRHa Android",
       "occupation": "YoRHa (dawniej) ",
       "sex": "Żeński model",
       "age": "nieznany",
       "weapon": {
         "initial": "Miecz Typ 40 i Ostrze Typ 40",
-        "routeC/D": "Virtuous Contract"
+        "routeCD": "Virtuous Contract"
       },
       "Born": "",
       "Height": "168cm(razem z butami)",
@@ -76,13 +76,13 @@
       "id": 4,
       "titre": "White",
       "fullTitre": "Komandor White",
-      "race": "YoRHa ",
+      "kind": "YoRHa ",
       "occupation": "Komandor YoRHa ",
       "sex": "Żeński model",
       "age": "nieznany",
       "weapon": {
         "initial": "",
-        "routeC/D": ""
+        "routeCD": ""
       },
       "born": "",
       "height": "175 cm (włączając akcesoria do włosów)",
@@ -100,13 +100,13 @@
       "id": 5,
       "titre": "Devola",
       "fullTitre": "",
-      "race": "Android",
+      "kind": "Android",
       "occupation": "Właścicielka Sklepu",
       "sex": "Żeński model",
       "age": "nieznany",
       "weapon": {
         "initial": "",
-        "routeC/D": ""
+        "routeCD": ""
       },
       "born": "",
       "height": "173 cm(wraz z butami)",
@@ -124,13 +124,13 @@
       "id": 6,
       "titre": "Popola",
       "fullTitre": "",
-      "race": "Android",
+      "kind": "Android",
       "occupation": "Właścicielka Sklepu",
       "sex": "Żeński model",
       "age": "nieznany",
       "weapon": {
         "initial": "",
-        "routeC/D": ""
+        "routeCD": ""
       },
       "born": "",
       "height": "173 cm(wraz z butami)",
@@ -148,13 +148,13 @@
       "id": 7,
       "titre": "Pascal",
       "fullTitre": "",
-      "race": "Maszyna",
+      "kind": "Maszyna",
       "occupation": "Lider wioski",
       "sex": "Męska",
       "age": "powyżej 200 lat",
       "weapon": {
         "initial": "",
-        "routeC/D": ""
+        "routeCD": ""
       },
       "born": "",
       "height": "nieznany",
@@ -172,13 +172,13 @@
       "id": 8,
       "titre": "Eve",
       "fullTitre": "",
-      "race": "Humanoidalna Maszyna",
+      "kind": "Humanoidalna Maszyna",
       "occupation": "Przywódca Maszyn",
       "sex": "Męski model",
       "age": "poniżej roku",
       "weapon": {
         "initial": "",
-        "routeC/D": ""
+        "routeCD": ""
       },
       "born": "pomiędzy 10 marca a 7 kwietnia 11945",
       "height": "188cm",
@@ -196,13 +196,13 @@
       "id": 9,
       "titre": "Adam",
       "fullTitre": "",
-      "race": "Humanoidalna Maszyna",
+      "kind": "Humanoidalna Maszyna",
       "occupation": "Przywódca Maszyn",
       "sex": "Męski model",
       "age": "poniżej roku",
       "weapon": {
         "initial": "",
-        "routeC/D": ""
+        "routeCD": ""
       },
       "born": "pomiędzy 10 marca a 7 kwietnia 11945",
       "height": "188cm",
@@ -220,13 +220,13 @@
       "id": 10,
       "titre": "Emil",
       "fullTitre": "",
-      "race": "Genetycznie Modyfikowany Człowiek",
+      "kind": "Genetycznie Modyfikowany Człowiek",
       "occupation": "Broń",
       "sex": "Męska",
       "age": "nieznany",
       "weapon": {
         "initial": "",
-        "routeC/D": ""
+        "routeCD": ""
       },
       "born": "",
       "height": "132 cm",
@@ -244,13 +244,13 @@
       "id": 11,
       "titre": "Anemone",
       "fullTitre": "",
-      "race": "Android",
+      "kind": "Android",
       "occupation": "Liderka Ruchu Oporu",
       "sex": "Żeński Model",
       "age": "nieznany",
       "weapon": {
         "initial": "",
-        "routeC/D": ""
+        "routeCD": ""
       },
       "born": "",
       "height": "",
@@ -268,13 +268,13 @@
       "id": 12,
       "titre": "21O",
       "fullTitre": "YoRHa Jednostka 21 Typ O (Operator)",
-      "race": "Android",
+      "kind": "Android",
       "occupation": "Operator YoRHa ",
       "sex": "Żeński model",
       "age": "nieznany",
       "weapon": {
         "initial": "",
-        "routeC/D": ""
+        "routeCD": ""
       },
       "born": "nieznana",
       "height": "167cm (razem z butami)",
@@ -292,13 +292,13 @@
       "id": 13,
       "titre": "6O",
       "fullTitre": "YoRHa Jednostka 6 Typ O (Operator)",
-      "race": "Android",
+      "kind": "Android",
       "occupation": "Operator YoRHa ",
       "sex": "Żeński model",
       "age": "",
       "weapon": {
         "initial": "",
-        "routeC/D": ""
+        "routeCD": ""
       },
       "born": "",
       "height": "",
@@ -316,13 +316,13 @@
       "id": 14,
       "titre": "Pod 042",
       "fullTitre": "",
-      "race": "",
+      "kind": "",
       "occupation": "Jednostka pomocnicza Androidów YoRHa",
       "sex": "",
       "age": "",
       "weapon": {
         "initial": "",
-        "routeC/D": ""
+        "routeCD": ""
       },
       "born": "",
       "height": "",
@@ -340,13 +340,13 @@
       "id": 15,
       "titre": "Pod 153",
       "fullTitre": "",
-      "race": "",
+      "kind": "",
       "occupation": "Jednostka pomocnicza Androidów YoRHa",
       "sex": "",
       "age": "",
       "weapon": {
         "initial": "",
-        "routeC/D": ""
+        "routeCD": ""
       },
       "born": "",
       "height": "",
@@ -364,13 +364,13 @@
       "id": 16,
       "titre": "Red Girl",
       "fullTitre": "Terminal Alpha i Beta",
-      "race": "Program",
+      "kind": "Program",
       "occupation": "",
       "sex": "Żeńska",
       "age": "",
       "weapon": {
         "initial": "",
-        "routeC/D": ""
+        "routeCD": ""
       },
       "born": "",
       "height": "",
