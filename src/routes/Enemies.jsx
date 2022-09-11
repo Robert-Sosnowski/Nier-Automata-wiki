@@ -21,7 +21,7 @@ const Enemies = () => {
             backgroundImage: `url(${background})`,
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat', width: "100%",
-            height: "100vh"
+            height: "100%"
         }}>
             <Container style={{
                 background: "#eceade",
