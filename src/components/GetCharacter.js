@@ -36,15 +36,15 @@ export const GetCharacter = (props) => {
 
                     <li>Imię:{character.titre} </li>
                     <li>Pełna nazwa:{character.fullTitre}</li>
-                    <li>Gatunek:{character.kind}</li>
-                    <li>Wiek:{character.age}</li>
-                    <li>Zajęcie:{character.occupation}</li>
-                    <li>Płeć:{character.sex}</li>
-                    <li>Broń: <span>{character.weapon?.initial}</span><span>{character.weapon?.routeCD}</span></li>
-                    <li>Stworzony:{character.born}</li>
-                    <li>Wzrost:{character.height}</li>
-                    <li>Waga:{character.weight}</li>
-                    <li>Kolor włosów:{character.hairColor}</li>
+                    <li>Gatunek: {character.kind}</li>
+                    <li>Wiek: {character.age}</li>
+                    <li>Zajęcie: {character.occupation}</li>
+                    <li>Płeć: {character.sex}</li>
+                    <li>Broń: <span> {character.weapon?.initial}</span>{" "}<span> {character.weapon?.routeCD}</span></li>
+                    <li>Stworzony: {character.born}</li>
+                    <li>Wzrost: {character.height}</li>
+                    <li>Waga: {character.weight}</li>
+                    <li>Kolor włosów: {character.hairColor}</li>
                     <li>Oczy:<span>
                         {character.eyeColor?.passive}
 
@@ -52,9 +52,9 @@ export const GetCharacter = (props) => {
                         <span>
                             {character.eyeColor?.combatMode}
                         </span>
-                        <li>Rodzina:{character.family}</li>
-                        <li>Japoński dubbing:{character.japaneseVoice}</li>
-                        <li>Angielski dubbing:{character.englishVoice}</li>
+                        <li>Rodzina: {character.family}</li>
+                        <li>Japoński dubbing: {character.japaneseVoice}</li>
+                        <li>Angielski dubbing: {character.englishVoice}</li>
 
 
                     </li>
