@@ -1,44 +1,30 @@
-import React, {useEffect,} from 'react';
+import React, {useEffect, useState,} from 'react';
 
-export const GetCharacter = (props) => {
-    let characters = [];
-    let character;
-
-    useEffect(() => {
-        fetch("http://localhost:3001/Characters")
+export const GetCharacter = () => {
+    const [character, setCharacter] = useState(null);
+    const fetchCharacter = () => {
+        fetch("http://localhost:3001/characters")
             .then((res) => {
+                console.log(res)
                 if (res.ok) {
                     return res.json();
                 }
-                throw new Error("Error");
+                throw new Error("Error")
             })
             .then((data) => {
-                console.log(data)
-                characters = data.Characters;
-                character = data.Characters.find((c) => {
-                    return c.id === props.id;
-                });
-                console.log(`ID: ${character.id} Name: ${character.titre}`);
-            }).catch((e) => {
-            throw(e);
-        });
-
-    })
+                console.log(data);
+                setCharacter(data.characters.find((item) => {
+                    return item.id === fetchCharacter.id
+                }))
+            })
+            .catch((err) => console.log(err));
+    }
 
 
-    const clickButton = () => {
-        console.log("Kliknięto mnie")
-        return (<>
-                <ul>
-                    {characters.map((id) => (
-                        <li key={id}>{character.id}-{character.englishVoice}</li>))}
-                </ul></>
-
-        );
-    };
     return (
-        <div>
-            <button onClick={clickButton}>informacje o postaci</button>
-        </div>
-    );
-};
+        <>
+            <button onClick={fetchCharacter}> informacje o postaci</button>
+        </>)
+
+
+}
