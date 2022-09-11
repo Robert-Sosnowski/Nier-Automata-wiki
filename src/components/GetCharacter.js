@@ -14,8 +14,10 @@ export const GetCharacter = () => {
             .then((data) => {
                 console.log(data);
                 setCharacter(data.Characters.find((item) => {
-                    return item.id === data.id
+                    return item.id === fetchCharacter.id
+
                 }))
+
             })
             .catch((err) => console.log(err));
     }
